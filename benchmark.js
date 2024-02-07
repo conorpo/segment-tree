@@ -57,9 +57,9 @@ const regtree_for_ms = (hrtime_to_ms(regtree_for_time) - hrtime_to_ms(random_tim
 
 console.log(`${SIZE} (${Math.floor(SIZE/1000)}k) elements, ${QUERIES} (${Math.floor(QUERIES/1000)}k) range queries`);
 console.log(`Random number generation: ${random_ms}ms (subtracted from following times)`);
-console.log(`SegmentTree query: ${segtree_ms}ms`);
-console.log(`Array.slice() query: ${regtree_slice_ms}ms`);
-console.log(`For loop query: ${regtree_for_ms}ms`);
+console.log(`SegmentTree time: ${segtree_ms}ms`);
+console.log(`Array.slice() time: ${regtree_slice_ms}ms`);
+console.log(`For loop time: ${regtree_for_ms}ms`);
 
 
 
